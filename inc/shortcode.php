@@ -152,7 +152,7 @@ function dangerbox($atts,$content=null,$code=""){
 }
 add_shortcode('dangerbox','dangerbox');
 function youku($atts,$content=null,$code=""){
-    $return = '<div class="video-container"><iframe height="498" width="750" src="http://player.youku.com/embed/';
+    $return = '<div class="video-container"><iframe height="498px" width="100%" src="https://player.youku.com/embed/';
     $return .= $content;
     $return .= '" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>';
     return $return;

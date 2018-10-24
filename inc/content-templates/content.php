@@ -5,7 +5,7 @@
 </div>    
 <div class="kratos-post-inner">
     <header class="kratos-entry-header clearfix">
-        <h2 class="kratos-entry-title"><a href="<?php the_permalink() ?>"><?php the_title() ?></a><?php if(is_sticky()) _e('—置顶','moedog'); ?></h2>
+        <h2 class="kratos-entry-title"><a href="<?php the_permalink() ?>"><?php if(is_sticky()) echo '<span style="font-size:25px;color:#f00">[TOP] </span>';the_title() ?></a></h2>
         <div class="kratos-post-meta">
             <span class="pull-left">
             <a href="#"><i class="fa fa-calendar"></i> <?php echo get_the_date(); ?></a>
@@ -33,7 +33,7 @@
     <div class="kratos-post-inner-new">
         <header class="kratos-entry-header-new">
             <a class="label" href="<?php $category=get_the_category();echo get_category_link($category[0]->term_id).'">'.$category[0]->cat_name; ?><i class="label-arrow"></i></a>
-            <h2 class="kratos-entry-title-new"><a href="<?php the_permalink() ?>"><?php the_title() ?></a><?php if(is_sticky()) _e('—置顶','moedog'); ?></h2>
+            <h2 class="kratos-entry-title-new"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
         </header>
         <div class="kratos-entry-content-new">
             <p><?php echo wp_trim_words(get_the_excerpt(),kratos_option('w_num')); ?></p>

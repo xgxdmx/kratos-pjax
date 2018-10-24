@@ -29,7 +29,7 @@ function danger($atts,$content=null,$code=""){
 add_shortcode('danger','danger');
 function wymusic($atts,$content=null,$code=""){
     extract(shortcode_atts(array("autoplay"=>'0'),$atts));
-    $return = '<iframe class="" style="width:100%" frameborder="no" border="0" marginwidth="0" marginheight="0" height=86 src="//music.163.com/outchain/player?type=2&id=';
+    $return = '<iframe style="width:100%" frameborder="no" border="0" marginwidth="0" marginheight="0" height="86" src="https://music.163.com/outchain/player?type=2&id=';
     $return .= $content;
     $return .= '&auto='.$autoplay.'&height=66"></iframe>';
     return $return;
@@ -152,7 +152,7 @@ function dangerbox($atts,$content=null,$code=""){
 }
 add_shortcode('dangerbox','dangerbox');
 function youku($atts,$content=null,$code=""){
-    $return = '<div class="video-container"><iframe height="498px" width="100%" src="https://player.youku.com/embed/';
+    $return = '<div class="video-container"><iframe height="498" width="100%" src="https://player.youku.com/embed/';
     $return .= $content;
     $return .= '" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>';
     return $return;
@@ -170,7 +170,7 @@ function tudou($atts,$content=null,$code=""){
 add_shortcode('tudou','tudou');
 function vqq($atts,$content=null,$code=""){
     extract(shortcode_atts(array("auto"=>'0'),$atts));
-    $return = '<div class="video-container"><iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=';
+    $return = '<div class="video-container"><iframe frameborder="0" width="100%" height="498" src="https://v.qq.com/iframe/player.html?vid=';
     $return .= $content;
     $return .= '&tiny=0&auto=';
     $return .= $auto;
@@ -179,7 +179,7 @@ function vqq($atts,$content=null,$code=""){
 }
 add_shortcode('vqq','vqq');
 function youtube($atts,$content=null,$code=""){
-    $return = '<div class="video-container"><iframe height="498" width="750" src="https://www.youtube.com/embed/';
+    $return = '<div class="video-container"><iframe height="498" width="100%" src="https://www.youtube.com/embed/';
     $return .= $content;
     $return .= '" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>';
     return $return;
@@ -194,7 +194,7 @@ function bilibili($atts,$content=null,$code=""){
     $return .= $cid;
     $return .= '&page=';
     $return .= $page;
-    $return .= '" allowtransparency="true" width="640" height="400" scrolling="no" frameborder="0" ></iframe></div>';
+    $return .= '" allowtransparency="true" width="100%" height="498" scrolling="no" frameborder="0" ></iframe></div>';
     return $return;
 }
 add_shortcode('bilibili','bilibili');

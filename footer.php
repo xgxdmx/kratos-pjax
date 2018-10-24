@@ -48,7 +48,11 @@
             </div>
         </div><?php }
         wp_footer();
-        if(kratos_option('script_tongji')) echo '<script type="text/javascript">'.kratos_option('script_tongji').'</script>';
+        if(kratos_option('script_tongji')||kratos_option('add_script')){ ?>
+            <script type="text/javascript">
+            <?php echo kratos_option('script_tongji');echo kratos_option('add_script'); ?>
+            </script><?php
+        }
         if(kratos_option('ap_footer')){ ?>
         <div class="aplayer-footer">
             <div class="ap-f" id="ap-f"></div>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kratos-pjax\n"
-"POT-Creation-Date: 2018-10-23 00:54+0800\n"
-"PO-Revision-Date: 2018-10-23 01:01+0800\n"
+"POT-Creation-Date: 2018-10-24 15:43+0800\n"
+"PO-Revision-Date: 2018-10-24 15:43+0800\n"
 "Last-Translator: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language-Team: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language: en_US\n"
@@ -33,7 +33,7 @@ msgstr "Previous"
 msgid "下一页"
 msgstr "Next"
 
-#: comments.php:14 inc/core.php:346 inc/logincfg.php:46
+#: comments.php:14 inc/core.php:299 inc/logincfg.php:46
 msgid "昵称"
 msgstr "Name"
 
@@ -41,7 +41,7 @@ msgstr "Name"
 msgid "邮箱"
 msgstr "Email"
 
-#: comments.php:16 inc/core.php:347
+#: comments.php:16 inc/core.php:300
 msgid "网站"
 msgstr "URL"
 
@@ -119,10 +119,6 @@ msgstr " Comments"
 msgid "次阅读"
 msgstr " Views"
 
-#: inc/content-templates/content.php:8 inc/content-templates/content.php:36
-msgid "—置顶"
-msgstr " - Sticky"
-
 #: inc/content-templates/content.php:19 inc/content-templates/content.php:49
 #: inc/single-templates/single.php:20
 msgid "人点赞"
@@ -133,8 +129,8 @@ msgid "阅读全文"
 msgstr "Read More"
 
 #: inc/core.php:20 inc/core.php:21
-#: inc/theme-options/includes/class-options-framework-admin.php:26
-#: inc/theme-options/includes/class-options-framework-admin.php:27
+#: inc/theme-options/includes/class-options-framework-admin.php:23
+#: inc/theme-options/includes/class-options-framework-admin.php:24
 #: inc/widgets.php:181
 msgid "主题设置"
 msgstr "Theme Settings"
@@ -148,83 +144,83 @@ msgstr "Top Menu Bar"
 msgid "为您找到结果 %s 个"
 msgstr "Found %s results for you"
 
-#: inc/core.php:348
+#: inc/core.php:301
 msgid "注册时间"
 msgstr "Registration Time"
 
-#: inc/core.php:349
+#: inc/core.php:302
 msgid "上次登录"
 msgstr "Last Login"
 
-#: inc/core.php:350
+#: inc/core.php:303
 msgid "登录IP"
 msgstr "Login IP"
 
-#: inc/core.php:420
+#: inc/core.php:373
 msgid "您的评论正在等待审核。"
 msgstr "Your comment is awaiting review."
 
-#: inc/core.php:499 options.php:44
+#: inc/core.php:452 options.php:44
 msgid "站点地图"
 msgstr "Site Map"
 
-#: inc/core.php:566
+#: inc/core.php:528
 msgid "最后更新于"
 msgstr "Latest update on "
 
-#: inc/imgcfg.php:78 inc/imgcfg.php:79
+#: inc/imgcfg.php:125 inc/imgcfg.php:126
 msgid "从URL添加"
 msgstr "Add From URL"
 
-#: inc/imgcfg.php:90
+#: inc/imgcfg.php:137
 msgid "或"
 msgstr "or"
 
-#: inc/imgcfg.php:93 inc/imgcfg.php:96
+#: inc/imgcfg.php:140 inc/imgcfg.php:143
 msgid "从URL导入"
 msgstr "Import From URL"
 
-#: inc/imgcfg.php:111
+#: inc/imgcfg.php:158
 msgid "从URL添加媒体项目"
 msgstr "Add a media item from URL"
 
-#: inc/imgcfg.php:117
+#: inc/imgcfg.php:164
 msgid "请手动指定图像大小与格式"
 msgstr "Please specify the image size and format manually"
 
-#: inc/imgcfg.php:119
+#: inc/imgcfg.php:166
 msgid "宽"
 msgstr "Width"
 
-#: inc/imgcfg.php:121
+#: inc/imgcfg.php:168
 msgid "高"
 msgstr "Hight"
 
-#: inc/imgcfg.php:123
+#: inc/imgcfg.php:170
 msgid "MIME类型"
 msgstr "MIME Type"
 
-#: inc/imgcfg.php:130
+#: inc/imgcfg.php:177
 msgid "清除"
 msgstr "Clear"
 
-#: inc/imgcfg.php:131
+#: inc/imgcfg.php:178
 msgid "添加"
 msgstr "Add"
 
-#: inc/imgcfg.php:133
+#: inc/imgcfg.php:180
 msgid "取消"
 msgstr "Cancel"
 
-#: inc/imgcfg.php:144
+#: inc/imgcfg.php:191
 msgid "相关JS加载失败"
 msgstr "Related JavaScript fails to load"
 
-#: inc/imgcfg.php:174 inc/imgcfg.php:180
+#: inc/imgcfg.php:221 inc/imgcfg.php:227
 msgid "图像大小不合法"
 msgstr "The image size is inappropriate"
 
-#: inc/imgcfg.php:203
+#: inc/imgcfg.php:250
 msgid "无法获取图像大小"
 msgstr "Unable to get image size"
 
@@ -607,121 +603,121 @@ msgstr "Login Address"
 msgid "欢迎注册"
 msgstr "Welcome to registration"
 
-#: inc/theme-options/includes/class-options-framework-admin.php:82
+#: inc/theme-options/includes/class-options-framework-admin.php:77
 msgid "保存设置"
 msgstr "Save Settings"
 
-#: inc/theme-options/includes/class-options-framework-admin.php:83
+#: inc/theme-options/includes/class-options-framework-admin.php:78
 msgid "恢复默认"
 msgstr "Reset to default"
 
-#: inc/theme-options/includes/class-options-framework-admin.php:83
+#: inc/theme-options/includes/class-options-framework-admin.php:78
 msgid "您是否要恢复默认设置？"
 msgstr "Do you want to reset to the default settings?"
 
-#: inc/theme-options/includes/class-options-framework-admin.php:95
+#: inc/theme-options/includes/class-options-framework-admin.php:90
 msgid "恢复默认设置成功"
 msgstr "Reset successful"
 
-#: inc/theme-options/includes/class-options-framework-admin.php:124
+#: inc/theme-options/includes/class-options-framework-admin.php:119
 msgid "保存成功"
 msgstr "Save successful"
 
-#: inc/theme-options/includes/class-options-media-uploader.php:29
+#: inc/theme-options/includes/class-options-media-uploader.php:28
 msgid "未选择任何文件"
 msgstr "No files selected"
 
-#: inc/theme-options/includes/class-options-media-uploader.php:32
-#: inc/theme-options/includes/class-options-media-uploader.php:70
+#: inc/theme-options/includes/class-options-media-uploader.php:31
+#: inc/theme-options/includes/class-options-media-uploader.php:69
 msgid "上传"
 msgstr "Upload"
 
-#: inc/theme-options/includes/class-options-media-uploader.php:34
-#: inc/theme-options/includes/class-options-media-uploader.php:71
+#: inc/theme-options/includes/class-options-media-uploader.php:33
+#: inc/theme-options/includes/class-options-media-uploader.php:70
 msgid "移除"
 msgstr "Remove"
 
-#: inc/theme-options/includes/class-options-media-uploader.php:37
+#: inc/theme-options/includes/class-options-media-uploader.php:36
 msgid "请更新您的 WordPress 版本以获取完整的媒体文件支持。"
 msgstr "Please update your WordPress version for a full media support."
 
-#: inc/theme-options/includes/class-options-media-uploader.php:54
+#: inc/theme-options/includes/class-options-media-uploader.php:53
 msgid "查看文件"
 msgstr "View Files"
 
-#: inc/theme-options/includes/class-options-sanitization.php:165
+#: inc/theme-options/includes/class-options-sanitization.php:162
 msgid "不重复"
 msgstr "No repeat"
 
-#: inc/theme-options/includes/class-options-sanitization.php:166
+#: inc/theme-options/includes/class-options-sanitization.php:163
 msgid "水平重复"
 msgstr "Horizontal repetition"
 
-#: inc/theme-options/includes/class-options-sanitization.php:167
+#: inc/theme-options/includes/class-options-sanitization.php:164
 msgid "垂直重复"
 msgstr "Vertical repetition"
 
-#: inc/theme-options/includes/class-options-sanitization.php:168
+#: inc/theme-options/includes/class-options-sanitization.php:165
 msgid "全部重复"
 msgstr "Repeat All"
 
-#: inc/theme-options/includes/class-options-sanitization.php:174
+#: inc/theme-options/includes/class-options-sanitization.php:171
 msgid "上部左边"
 msgstr "Top left"
 
-#: inc/theme-options/includes/class-options-sanitization.php:175
+#: inc/theme-options/includes/class-options-sanitization.php:172
 msgid "上部中间"
 msgstr "Top center"
 
-#: inc/theme-options/includes/class-options-sanitization.php:176
+#: inc/theme-options/includes/class-options-sanitization.php:173
 msgid "上部右边"
 msgstr "Top right"
 
-#: inc/theme-options/includes/class-options-sanitization.php:177
+#: inc/theme-options/includes/class-options-sanitization.php:174
 msgid "中部左边"
 msgstr "Middle left"
 
-#: inc/theme-options/includes/class-options-sanitization.php:178
+#: inc/theme-options/includes/class-options-sanitization.php:175
 msgid "中部中间"
 msgstr "Middle Center"
 
-#: inc/theme-options/includes/class-options-sanitization.php:179
+#: inc/theme-options/includes/class-options-sanitization.php:176
 msgid "中部右边"
 msgstr "Middle right"
 
-#: inc/theme-options/includes/class-options-sanitization.php:180
+#: inc/theme-options/includes/class-options-sanitization.php:177
 msgid "下部左边"
 msgstr "Bottom left"
 
-#: inc/theme-options/includes/class-options-sanitization.php:181
+#: inc/theme-options/includes/class-options-sanitization.php:178
 msgid "下部中间"
 msgstr "Bottom center"
 
-#: inc/theme-options/includes/class-options-sanitization.php:182
+#: inc/theme-options/includes/class-options-sanitization.php:179
 msgid "下部右边"
 msgstr "Bottom right"
 
-#: inc/theme-options/includes/class-options-sanitization.php:188
+#: inc/theme-options/includes/class-options-sanitization.php:185
 msgid "正常滚动"
 msgstr "Normal scrolling"
 
-#: inc/theme-options/includes/class-options-sanitization.php:189
+#: inc/theme-options/includes/class-options-sanitization.php:186
 msgid "固定"
 msgstr "Fixed"
 
-#: inc/theme-options/includes/class-options-sanitization.php:221
+#: inc/theme-options/includes/class-options-sanitization.php:218
 msgid "常规"
 msgstr "Normal"
 
-#: inc/theme-options/includes/class-options-sanitization.php:222
+#: inc/theme-options/includes/class-options-sanitization.php:219
 msgid "斜体"
 msgstr "Italic"
 
-#: inc/theme-options/includes/class-options-sanitization.php:223
+#: inc/theme-options/includes/class-options-sanitization.php:220
 msgid "粗体"
 msgstr "Bold"
 
-#: inc/theme-options/includes/class-options-sanitization.php:224
+#: inc/theme-options/includes/class-options-sanitization.php:221
 msgid "斜粗体"
 msgstr "Italic Bold"
 
@@ -1122,7 +1118,9 @@ msgid "自定义Font Awesome"
 msgstr "Custom Font Awesome"
 
 #: options.php:143
-msgid "自定义Font Awesome字体库链接，留空将从本地加载"
+#, fuzzy
+#| msgid "自定义Font Awesome字体库链接，留空将从本地加载"
+msgid "自定义Font Awesome 4.7字体库链接，留空将从本地加载"
 msgstr "Custom font awesome font library link, leave blank to load from local"
 
 #: options.php:148
@@ -1912,3 +1910,6 @@ msgstr "Vtrois(Modified by 小白-白)"
 #. Author URI of the plugin/theme
 msgid "https://www.vtrois.com/"
 msgstr "https://www.vtrois.com/"
+
+#~ msgid "—置顶"
+#~ msgstr " - Sticky"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Kratos-pjax\n"
-"POT-Creation-Date: 2018-10-24 22:47+0800\n"
+"POT-Creation-Date: 2018-10-24 23:31+0800\n"
 "PO-Revision-Date: 2018-10-19 21:59+0800\n"
 "Last-Translator: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language-Team: 小白-白 (Moedog) <xb@fczbl.vip>\n"
@@ -322,18 +322,18 @@ msgstr ""
 msgid "打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮"
 msgstr ""
 
-#: inc/shortcode.php:41 inc/shortcode.php:305
+#: inc/shortcode.php:41 inc/shortcode.php:306
 msgid "本地下载"
 msgstr ""
 
-#: inc/shortcode.php:48 inc/shortcode.php:306
+#: inc/shortcode.php:48 inc/shortcode.php:307
 msgid "云盘下载"
 msgstr ""
 
 #: inc/shortcode.php:81 inc/shortcode.php:115 inc/shortcode.php:125
-#: inc/shortcode.php:135 inc/shortcode.php:145 inc/shortcode.php:303
-#: inc/shortcode.php:312 inc/shortcode.php:313 inc/shortcode.php:314
-#: inc/shortcode.php:315
+#: inc/shortcode.php:135 inc/shortcode.php:145 inc/shortcode.php:304
+#: inc/shortcode.php:313 inc/shortcode.php:314 inc/shortcode.php:315
+#: inc/shortcode.php:316
 msgid "标题内容"
 msgstr ""
 
@@ -360,58 +360,62 @@ msgid "添加表情"
 msgstr ""
 
 #: inc/shortcode.php:300
-msgid "内容标题"
+msgid "代码高亮"
 msgstr ""
 
 #: inc/shortcode.php:301
-msgid "蓝色字体"
+msgid "内容标题"
 msgstr ""
 
 #: inc/shortcode.php:302
-msgid "红色字体"
+msgid "蓝色字体"
 msgstr ""
 
 #: inc/shortcode.php:303
-msgid "展开/收缩"
+msgid "红色字体"
 msgstr ""
 
 #: inc/shortcode.php:304
+msgid "展开/收缩"
+msgstr ""
+
+#: inc/shortcode.php:305
 msgid "回复可见"
 msgstr ""
 
-#: inc/shortcode.php:307
+#: inc/shortcode.php:308
 msgid "网易云音乐"
 msgstr ""
 
-#: inc/shortcode.php:308
+#: inc/shortcode.php:309
 msgid "绿色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:309
+#: inc/shortcode.php:310
 msgid "蓝色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:310
+#: inc/shortcode.php:311
 msgid "黄色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:311
+#: inc/shortcode.php:312
 msgid "红色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:312
+#: inc/shortcode.php:313
 msgid "绿色面板"
 msgstr ""
 
-#: inc/shortcode.php:313
+#: inc/shortcode.php:314
 msgid "蓝色面板"
 msgstr ""
 
-#: inc/shortcode.php:314
+#: inc/shortcode.php:315
 msgid "黄色面板"
 msgstr ""
 
-#: inc/shortcode.php:315
+#: inc/shortcode.php:316
 msgid "红色面板"
 msgstr ""
 

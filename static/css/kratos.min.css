@@ -90,7 +90,7 @@ ol,p,ul{margin:0 0 1em 0;font-size:16px;color:#333}
 ol ol,ol ul,ul ol,ul ul{margin-bottom:0}
 optgroup{font-weight:700}
 pre{overflow:auto;display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.5;color:#333;word-break:break-all;word-wrap:break-word;background-color:#f5f5f5;border:1px solid #ccc}
-pre code{border:none;margin:-10px -10px -28px -10px;background-color:transparent}
+pre code{border:none;margin:-10px;background-color:transparent}
 ruby{background:#f2f2f2;margin:0 2px;padding:0 2px;border-radius:4px}
 select{cursor:url(../images/pointer.cur),auto}
 select[multiple],select[size]{height:auto}
@@ -246,7 +246,7 @@ td,th{padding:0}
 .form-control{padding:6px 12px;line-height:1.42857143;width:100%;color:#555;z-index:2;float:left}
 .form-group{margin-bottom:15px}
 .hidden{display:none!important}
-.hljs{display:block;overflow-x:auto;background:#1e1e1e;color:#dcdcdc;padding:0 15px 10px 15px}
+.hljs{display:block;overflow-x:auto;background:#1e1e1e;color:#dcdcdc;padding:15px}
 .hljs-keyword,.hljs-literal,.hljs-symbol,.hljs-name{color:#569cd6}
 .hljs-link{color:#569cd6;text-decoration:underline}
 .hljs-built_in,.hljs-type{color:#4ec9b0}

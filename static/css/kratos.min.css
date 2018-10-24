@@ -435,7 +435,7 @@ td,th{padding:0}
 .post-navigation .nav-previous{float:left;text-align:left;max-width:50%;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,.1);padding:7px 18px}
 .post-navigation .nav-next{float:right;text-align:right;max-width:50%;background-color:#fff;box-shadow:0 1px 5px rgba(0,0,0,.1);padding:7px 18px}
 .kratos-post-meta span{font-size:13px;color:#777}
-.kratos-post-meta .fa-thumbs-o-up,.kratos-post-meta i:not(:first-child){margin-left:12px}
+.kratos-hentry.kratos-post-inner .kratos-post-meta .fa-thumbs-o-up,.kratos-post-meta i:not(:first-child){margin-left:12px}
 .kratos-status{margin:15px 15px 15px 38px;border-left:1px dotted #ccc;font-style:italic;position:relative}
 .kratos-status.kratos-status-post{margin:0 15px 0 38px}
 .kratos-status .fa-refresh{position: absolute;top:50%;left:-7px;margin:-9px 0 0}
@@ -456,7 +456,7 @@ td,th{padding:0}
 .kratos-post-inner div:last-child.kratos-copyright{margin-bottom:20px}
 .kratos-post-inner-new{margin-left:255px;height:168px;padding:21px 20px 0 3px;overflow:hidden}
 .kratos-post-inner-new header .label{display:inline-block;padding:4px 6px;font-size:12px;font-weight:700;line-height:14px;color:#fff;vertical-align:baseline;white-space:nowrap;background-color:#51aded;margin-right:5px;position:relative;top:-3px;cursor:url(../images/pointer.cur),auto}
-.kratos-post-inner-new header .label .label-arrow{position:absolute;width:0;height:0;vertical-align:top;content:"";top:8px;right:-3px;border-left:4px solid #51aded;border-top:4px solid transparent;border-bottom:4px solid transparent}
+.kratos-post-inner-new header .label:after{position:absolute;width:0;height:0;vertical-align:top;content:"";top:8px;right:-3px;border-left:4px solid #51aded;border-top:4px solid transparent;border-bottom:4px solid transparent}
 .kratos-post-inner-new header .label:hover{color:#fff!important}
 .kratos-post-content,.kratos-post-content-l{word-break:break-all;word-wrap:break-word;margin:10px}
 .kratos-post-content p{margin-bottom:1em;font-size:16px;color:#333}

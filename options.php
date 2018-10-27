@@ -305,6 +305,15 @@ function optionsframework_options(){
         'std'=>'A responsible theme for WordPress',
         'type'=>'text');
     $options[] = array(
+        'name'=>__('移动端菜单显示模式','moedog'),
+        'id'=>'mobi_mode',
+        'std'=>'side',
+        'type'=>'select',
+        'class'=>'mini',
+        'options'=>array(
+            'top'=>__('顶部','moedog'),
+            'side'=>__('侧栏','moedog')));
+    $options[] = array(
         'name'=>__('以下为纯色Header设置','moedog'),
         'desc'=>__('只有顶部显示模式为纯色才有效。','moedog'));
     $options[] = array(

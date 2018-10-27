@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Kratos-pjax\n"
-"POT-Creation-Date: 2018-10-24 23:31+0800\n"
+"POT-Creation-Date: 2018-10-27 15:17+0800\n"
 "PO-Revision-Date: 2018-10-19 21:59+0800\n"
 "Last-Translator: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language-Team: 小白-白 (Moedog) <xb@fczbl.vip>\n"
@@ -322,18 +322,18 @@ msgstr ""
 msgid "打开微信“扫一扫”，打开网页后点击屏幕右上角分享按钮"
 msgstr ""
 
-#: inc/shortcode.php:41 inc/shortcode.php:306
+#: inc/shortcode.php:41 inc/shortcode.php:308
 msgid "本地下载"
 msgstr ""
 
-#: inc/shortcode.php:48 inc/shortcode.php:307
+#: inc/shortcode.php:48 inc/shortcode.php:309
 msgid "云盘下载"
 msgstr ""
 
 #: inc/shortcode.php:81 inc/shortcode.php:115 inc/shortcode.php:125
-#: inc/shortcode.php:135 inc/shortcode.php:145 inc/shortcode.php:304
-#: inc/shortcode.php:313 inc/shortcode.php:314 inc/shortcode.php:315
-#: inc/shortcode.php:316
+#: inc/shortcode.php:135 inc/shortcode.php:145 inc/shortcode.php:306
+#: inc/shortcode.php:315 inc/shortcode.php:316 inc/shortcode.php:317
+#: inc/shortcode.php:318
 msgid "标题内容"
 msgstr ""
 
@@ -355,67 +355,67 @@ msgstr ""
 msgid "以下为隐藏内容："
 msgstr ""
 
-#: inc/shortcode.php:293
+#: inc/shortcode.php:295
 msgid "添加表情"
 msgstr ""
 
-#: inc/shortcode.php:300
+#: inc/shortcode.php:302
 msgid "代码高亮"
 msgstr ""
 
-#: inc/shortcode.php:301
+#: inc/shortcode.php:303
 msgid "内容标题"
 msgstr ""
 
-#: inc/shortcode.php:302
+#: inc/shortcode.php:304
 msgid "蓝色字体"
 msgstr ""
 
-#: inc/shortcode.php:303
+#: inc/shortcode.php:305
 msgid "红色字体"
 msgstr ""
 
-#: inc/shortcode.php:304
+#: inc/shortcode.php:306
 msgid "展开/收缩"
 msgstr ""
 
-#: inc/shortcode.php:305
+#: inc/shortcode.php:307
 msgid "回复可见"
 msgstr ""
 
-#: inc/shortcode.php:308
+#: inc/shortcode.php:310
 msgid "网易云音乐"
 msgstr ""
 
-#: inc/shortcode.php:309
+#: inc/shortcode.php:311
 msgid "绿色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:310
+#: inc/shortcode.php:312
 msgid "蓝色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:311
+#: inc/shortcode.php:313
 msgid "黄色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:312
+#: inc/shortcode.php:314
 msgid "红色背景栏"
 msgstr ""
 
-#: inc/shortcode.php:313
+#: inc/shortcode.php:315
 msgid "绿色面板"
 msgstr ""
 
-#: inc/shortcode.php:314
+#: inc/shortcode.php:316
 msgid "蓝色面板"
 msgstr ""
 
-#: inc/shortcode.php:315
+#: inc/shortcode.php:317
 msgid "黄色面板"
 msgstr ""
 
-#: inc/shortcode.php:316
+#: inc/shortcode.php:318
 msgid "红色面板"
 msgstr ""
 
@@ -1285,525 +1285,537 @@ msgid "图片文字-2(可做站点描述)"
 msgstr ""
 
 #: options.php:308
-msgid "以下为纯色Header设置"
+msgid "移动端菜单显示模式"
 msgstr ""
 
-#: options.php:309
-msgid "只有顶部显示模式为纯色才有效。"
+#: options.php:314
+msgid "顶部"
 msgstr ""
 
-#: options.php:311
-msgid "Nav Bar颜色"
-msgstr ""
-
-#: options.php:312
-msgid "请使用RGBA格式表示，默认22,23,26,.9"
+#: options.php:315
+msgid "侧栏"
 msgstr ""
 
 #: options.php:317
-msgid "移动端侧边栏菜单颜色"
+msgid "以下为纯色Header设置"
 msgstr ""
 
 #: options.php:318
+msgid "只有顶部显示模式为纯色才有效。"
+msgstr ""
+
+#: options.php:320
+msgid "Nav Bar颜色"
+msgstr ""
+
+#: options.php:321
+msgid "请使用RGBA格式表示，默认22,23,26,.9"
+msgstr ""
+
+#: options.php:326
+msgid "移动端侧边栏菜单颜色"
+msgstr ""
+
+#: options.php:327
 msgid "请使用RGBA格式表示，默认42,42,42,.9"
 msgstr ""
 
-#: options.php:323
+#: options.php:332
 msgid "图片Logo"
 msgstr ""
 
-#: options.php:324
+#: options.php:333
 msgid "高40px，宽最大200px，不设置将显示文字Logo"
 msgstr ""
 
-#: options.php:328
+#: options.php:337
 msgid "底部配置"
 msgstr ""
 
-#: options.php:331
+#: options.php:340
 msgid "建站时间"
 msgstr ""
 
-#: options.php:332
+#: options.php:341
 msgid "输入你的建站时间，格式MM/DD/YYYY hh:mm:ss"
 msgstr ""
 
-#: options.php:337
+#: options.php:346
 msgid "Footer颜色"
 msgstr ""
 
-#: options.php:338
+#: options.php:347
 msgid "请使用RGBA格式表示，默认35,40,45,1"
 msgstr ""
 
-#: options.php:343
+#: options.php:352
 msgid "工信部备案信息"
 msgstr ""
 
-#: options.php:344
+#: options.php:353
 msgid "输入您的工信部备案号，针对国际版没有备案信息栏目的功能"
 msgstr ""
 
-#: options.php:348
+#: options.php:357
 msgid "公安网备案信息"
 msgstr ""
 
-#: options.php:349
+#: options.php:358
 msgid "输入您的公安网备案号"
 msgstr ""
 
-#: options.php:353
+#: options.php:362
 msgid "公安网备案连接"
 msgstr ""
 
-#: options.php:354
+#: options.php:363
 msgid "输入您的公安网备案的链接地址"
 msgstr ""
 
-#: options.php:358
+#: options.php:367
 msgid "新浪微博"
 msgstr ""
 
-#: options.php:359 options.php:365 options.php:371 options.php:377
-#: options.php:383 options.php:389
+#: options.php:368 options.php:374 options.php:380 options.php:386
+#: options.php:392 options.php:398
 msgid "连接前要带有 http:// 或者 https:// "
 msgstr ""
 
-#: options.php:364
+#: options.php:373
 msgid "腾讯微博"
 msgstr ""
 
-#: options.php:370
+#: options.php:379
 msgid "Twitter"
 msgstr ""
 
-#: options.php:376
+#: options.php:385
 msgid "FaceBook"
 msgstr ""
 
-#: options.php:382
+#: options.php:391
 msgid "LinkedIn"
 msgstr ""
 
-#: options.php:388
+#: options.php:397
 msgid "GayHub"
 msgstr ""
 
-#: options.php:394
+#: options.php:403
 msgid "Mail"
 msgstr ""
 
-#: options.php:395
+#: options.php:404
 msgid "连接前要带有mailto: "
 msgstr ""
 
-#: options.php:400
+#: options.php:409
 msgid "文章设置"
 msgstr ""
 
-#: options.php:403
+#: options.php:412
 msgid "文章页面布局"
 msgstr ""
 
-#: options.php:404
+#: options.php:413
 msgid "选择[文章]页面布局(显示左边栏，无边栏，右边栏)，默认显示右边栏"
 msgstr ""
 
-#: options.php:413 options.php:444
+#: options.php:422 options.php:453
 msgid "版权声明"
 msgstr ""
 
-#: options.php:414 options.php:445
+#: options.php:423 options.php:454
 msgid "是否启用 CC BY-SA 4.0 声明"
 msgstr ""
 
-#: options.php:419 options.php:450
+#: options.php:428 options.php:459
 msgid "分享按钮"
 msgstr ""
 
-#: options.php:420
+#: options.php:429
 msgid "是否启用文章分享功能"
 msgstr ""
 
-#: options.php:425 options.php:456
+#: options.php:434 options.php:465
 msgid "打赏按钮"
 msgstr ""
 
-#: options.php:426
+#: options.php:435
 msgid "是否启用文章打赏功能"
 msgstr ""
 
-#: options.php:431
+#: options.php:440
 msgid "页面设置"
 msgstr ""
 
-#: options.php:434
+#: options.php:443
 msgid "页面布局"
 msgstr ""
 
-#: options.php:435
+#: options.php:444
 msgid "选择[页面]布局(显示左边栏，无边栏，右边栏)，默认显示右边栏"
 msgstr ""
 
-#: options.php:451
+#: options.php:460
 msgid "是否启用页面分享功能"
 msgstr ""
 
-#: options.php:457
+#: options.php:466
 msgid "是否启用页面打赏功能"
 msgstr ""
 
-#: options.php:462
+#: options.php:471
 msgid "轮播设置"
 msgstr ""
 
-#: options.php:465
+#: options.php:474
 msgid "主页轮播"
 msgstr ""
 
-#: options.php:466
+#: options.php:475
 msgid "是否启用轮播功能"
 msgstr ""
 
-#: options.php:471
+#: options.php:480
 msgid "注意："
 msgstr ""
 
-#: options.php:472
+#: options.php:481
 msgid "图片宽度建议大于750px，所有图片比例须一致"
 msgstr ""
 
-#: options.php:474
+#: options.php:483
 msgid "轮播图片-1"
 msgstr ""
 
-#: options.php:478
+#: options.php:487
 msgid "轮播链接-1"
 msgstr ""
 
-#: options.php:479 options.php:489 options.php:499 options.php:509
-#: options.php:519
+#: options.php:488 options.php:498 options.php:508 options.php:518
+#: options.php:528
 msgid "链接可以留空"
 msgstr ""
 
-#: options.php:484
+#: options.php:493
 msgid "轮播图片-2"
 msgstr ""
 
-#: options.php:488
+#: options.php:497
 msgid "链接2"
 msgstr ""
 
-#: options.php:494
+#: options.php:503
 msgid "轮播图片-3"
 msgstr ""
 
-#: options.php:498
+#: options.php:507
 msgid "链接3"
 msgstr ""
 
-#: options.php:504
+#: options.php:513
 msgid "轮播图片-4"
 msgstr ""
 
-#: options.php:508
+#: options.php:517
 msgid "链接4"
 msgstr ""
 
-#: options.php:514
+#: options.php:523
 msgid "轮播图片-5"
 msgstr ""
 
-#: options.php:518
+#: options.php:527
 msgid "链接5"
 msgstr ""
 
-#: options.php:524
+#: options.php:533
 msgid "邮件设置"
 msgstr ""
 
-#: options.php:527
+#: options.php:536
 msgid "SMTP服务"
 msgstr ""
 
-#: options.php:528
+#: options.php:537
 msgid "是否启用SMTP邮件发送服务"
 msgstr ""
 
-#: options.php:533
+#: options.php:542
 msgid "发信人"
 msgstr ""
 
-#: options.php:534
+#: options.php:543
 msgid "请填写发件人姓名"
 msgstr ""
 
-#: options.php:539
+#: options.php:548
 msgid "邮件服务器"
 msgstr ""
 
-#: options.php:540
+#: options.php:549
 msgid "请填写SMTP服务器地址"
 msgstr ""
 
-#: options.php:545
+#: options.php:554
 msgid "服务器端口"
 msgstr ""
 
-#: options.php:546
+#: options.php:555
 msgid "请填写SMTP服务器端口"
 msgstr ""
 
-#: options.php:551
+#: options.php:560
 msgid "邮箱帐号"
 msgstr ""
 
-#: options.php:552
+#: options.php:561
 msgid "请填写邮箱账号"
 msgstr ""
 
-#: options.php:557
+#: options.php:566
 msgid "邮箱密码"
 msgstr ""
 
-#: options.php:558
+#: options.php:567
 msgid "请填写邮箱密码"
 msgstr ""
 
-#: options.php:563
+#: options.php:572
 msgid "启用SMTPAuth服务"
 msgstr ""
 
-#: options.php:564
+#: options.php:573
 msgid "是否启用SMTPAuth服务"
 msgstr ""
 
-#: options.php:569
+#: options.php:578
 msgid "SMTPSecure设置"
 msgstr ""
 
-#: options.php:570
+#: options.php:579
 msgid ""
 "若启用SMTPAuth服务则填写ssl，若不启用则留空；office365的邮箱请填写STARTTLS"
 msgstr ""
 
-#: options.php:575
+#: options.php:584
 msgid "雪花设置"
 msgstr ""
 
-#: options.php:578
+#: options.php:587
 msgid "站点雪花"
 msgstr ""
 
-#: options.php:579
+#: options.php:588
 msgid "是否启用站点雪花功能"
 msgstr ""
 
-#: options.php:584
+#: options.php:593
 msgid "移动端是否显示"
 msgstr ""
 
-#: options.php:585
+#: options.php:594
 msgid "配置移动端是否显示，默认是"
 msgstr ""
 
-#: options.php:590
+#: options.php:599
 msgid "雪花数量"
 msgstr ""
 
-#: options.php:591
+#: options.php:600
 msgid "数值越大雪花数量越多，默认150"
 msgstr ""
 
-#: options.php:596
+#: options.php:605
 msgid "雪花大小"
 msgstr ""
 
-#: options.php:597
+#: options.php:606
 msgid "为基准值，数值越大雪花越大，默认2"
 msgstr ""
 
-#: options.php:602
+#: options.php:611
 msgid "雪花距离"
 msgstr ""
 
-#: options.php:603
+#: options.php:612
 msgid "雪花距离鼠标指针的最小值，小于这个距离的雪花将受到鼠标的排斥，默认100"
 msgstr ""
 
-#: options.php:608
+#: options.php:617
 msgid "雪花速度"
 msgstr ""
 
-#: options.php:609
+#: options.php:618
 msgid "为基准值，数值越大雪花速度越快，默认0.5"
 msgstr ""
 
-#: options.php:614
+#: options.php:623
 msgid "雪花横移度"
 msgstr ""
 
-#: options.php:615
+#: options.php:624
 msgid "为基准值，数值越大雪花横移幅度越大，0为竖直下落，默认1"
 msgstr ""
 
-#: options.php:620
+#: options.php:629
 msgid "雪花颜色"
 msgstr ""
 
-#: options.php:621
+#: options.php:630
 msgid "请用RGB格式表示，默认255,255,255"
 msgstr ""
 
-#: options.php:626
+#: options.php:635
 msgid "雪花不透明度"
 msgstr ""
 
-#: options.php:627
+#: options.php:636
 msgid "为基准值，范围0~1，1为不透明，默认0.3"
 msgstr ""
 
-#: options.php:632
+#: options.php:641
 msgid "注册登录设置"
 msgstr ""
 
-#: options.php:635
+#: options.php:644
 msgid "注册登录页面背景"
 msgstr ""
 
-#: options.php:636
+#: options.php:645
 msgid "因为默认使用了Bing每日美图API，所以这里只能手动写链接了..."
 msgstr ""
 
-#: options.php:641
+#: options.php:650
 msgid "注册登录页面站点图标"
 msgstr ""
 
-#: options.php:646
+#: options.php:655
 msgid "以下为用户注册部分的设置"
 msgstr ""
 
-#: options.php:648
+#: options.php:657
 msgid "使用密码注册"
 msgstr ""
 
-#: options.php:649
+#: options.php:658
 msgid "是否允许用户输入密码注册(免邮箱验证)"
 msgstr ""
 
-#: options.php:654
+#: options.php:663
 msgid "域名限制模式"
 msgstr ""
 
-#: options.php:655
+#: options.php:664
 msgid "如果不想限制邮箱，请将此部分设置保持默认。"
 msgstr ""
 
-#: options.php:661
+#: options.php:670
 msgid "白名单模式"
 msgstr ""
 
-#: options.php:662
+#: options.php:671
 msgid "黑名单模式"
 msgstr ""
 
-#: options.php:664
+#: options.php:673
 msgid "域名白名单列表(一行一个)"
 msgstr ""
 
-#: options.php:669
+#: options.php:678
 msgid "域名黑名单列表(一行一个)"
 msgstr ""
 
-#: options.php:674
+#: options.php:683
 msgid "错误信息"
 msgstr ""
 
-#: options.php:675
+#: options.php:684
 msgid "用户域名被阻止时的提示信息"
 msgstr ""
 
-#: options.php:677
+#: options.php:686
 msgid "本站禁止此域名的邮箱注册，请更换邮箱再试。"
 msgstr ""
 
-#: options.php:680
+#: options.php:689
 msgid "以下为用户登录限制部分设置"
 msgstr ""
 
-#: options.php:681
+#: options.php:690
 msgid "默认不启用，但是建议手动启用此功能"
 msgstr ""
 
-#: options.php:683
+#: options.php:692
 msgid "用户登录限制"
 msgstr ""
 
-#: options.php:684
+#: options.php:693
 msgid "是否启用登录限制功能(只有启用此项，下面的设置才有效)"
 msgstr ""
 
-#: options.php:689
+#: options.php:698
 msgid "登录尝试机会"
 msgstr ""
 
-#: options.php:690
+#: options.php:699
 msgid "允许输错密码的次数，默认3"
 msgstr ""
 
-#: options.php:695
+#: options.php:704
 msgid "初始锁定时间"
 msgstr ""
 
-#: options.php:696
+#: options.php:705
 msgid "单位秒，不应小于60，默认1200(20分钟)"
 msgstr ""
 
-#: options.php:701
+#: options.php:710
 msgid "增加锁定时间所需锁定次数"
 msgstr ""
 
-#: options.php:702
+#: options.php:711
 msgid "默认3次"
 msgstr ""
 
-#: options.php:707
+#: options.php:716
 msgid "增加后的锁定时间"
 msgstr ""
 
-#: options.php:708
+#: options.php:717
 msgid "单位秒，不应小于3600，默认86400(24小时)"
 msgstr ""
 
-#: options.php:713
+#: options.php:722
 msgid "自动清除锁定IP的时间"
 msgstr ""
 
-#: options.php:714
+#: options.php:723
 msgid "单位秒，默认43200(12小时)"
 msgstr ""
 
-#: options.php:719
+#: options.php:728
 msgid "控制Cookie登录"
 msgstr ""
 
-#: options.php:720
+#: options.php:729
 msgid "是否控制Cookie登录"
 msgstr ""
 
-#: options.php:725
+#: options.php:734
 msgid "邮件提醒"
 msgstr ""
 
-#: options.php:726
+#: options.php:735
 msgid "是否启用锁定邮件提醒功能(请在下方设置提醒阈值)"
 msgstr ""
 
-#: options.php:731
+#: options.php:740
 msgid "锁定提醒阈值"
 msgstr ""
 
-#: options.php:732
+#: options.php:741
 msgid "默认2次(启用上方的邮件提醒功能才有效)"
 msgstr ""
 

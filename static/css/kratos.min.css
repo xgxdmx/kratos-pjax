@@ -394,7 +394,7 @@ td,th{padding:0}
 #offcanvas-menu ul li a{font-size:16px;color:rgba(255,255,255,.55)}
 #offcanvas-menu ul li>.sub-menu{margin-top:9px;padding-left:20px}
 #offcanvas-menu ul .sub-menu{display:block!important}
-#kratos-header{position:relative;margin-bottom:0;z-index:5}
+#kratos-header{position:relative;margin-bottom:0;z-index:1001}
 #kratos-header .color-logo img{max-width:200px;height:40px;margin-top:-5px}
 .kratos-nav-toggle{position:fixed;top:11px;right:15px;z-index:999;height:38px;display:none}
 .kratos-nav-toggle i{position:relative;display:inline-block;zoom:1;width:28px;height:2.5px;color:#fff;font:700 14px/.4 Helvetica;text-transform:uppercase;text-indent:-55px;background:#fff;-webkit-transition:.2s;transition:.2s}

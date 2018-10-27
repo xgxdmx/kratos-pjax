@@ -314,11 +314,11 @@ td,th{padding:0}
 #nprogress .spinner-icon{width:18px;height:18px;box-sizing:border-box;border:solid 2px transparent;border-top-color:#29d;border-left-color:#29d;border-radius:50%;-webkit-animation:nprogress-spinner 400ms linear infinite;animation:nprogress-spinner 400ms linear infinite}
 .nprogress-custom-parent{overflow:hidden;position:relative}
 .nprogress-custom-parent #nprogress .spinner,.nprogress-custom-parent #nprogress .bar{position:absolute}
-.post-pwd{width:55%}
 .pull-right{float:right!important}
 .pull-left{float:left!important}
-.row{margin-right:-15px;margin-left:-15px}
-.useragent{font-size:15px;color:#333}
+.row{margin:0 -15px}
+.useragent{font-size:15px}
+.useragent img{margin-top:-3px;width:15px;height:15px}
 .visible-lg,.visible-md,.visible-sm,.visible-xs{display:none!important}
 .text-left{text-align:left}
 .text-right{text-align:right}
@@ -780,6 +780,7 @@ h4{font-size:15px}
 .posts-collapse .collection-title{margin:16px 0}
 .posts-collapse .collection-title h2{font-weight:800;font-size:20px}
 .posts-collapse .post-title{font-size:16px}
+.comments-area .comment-list .children li{margin-left:-5px;margin-right:-5px}
 }
 @media(max-width:767px){
 .visible-xs{display:block!important}

@@ -667,6 +667,9 @@ a.comment-reply-link,a.comment-reply-login{text-decoration:none;padding:2px 5px;
 .widget_archive ul,.widget_categories ul{list-style:none;padding:0;margin:0}
 .widget_archive li::before{content:'\f133';margin-right:8px}
 .widget_categories li::before{content:'\f114';margin-right:8px}
+.widget_links ul{padding:0 8px;margin-bottom:5px}
+.widget_links li{list-style:none;width:50%;float:left}
+.widget_links img{width:25px;height:25px;margin-top:-3px;border-radius:50%}
 .cd-tool>div:hover{cursor:url(../images/pointer.cur),auto}
 .cd-tool>div{position:fixed;right:20px;z-index:999}
 .cd-tool span{display:table-cell;vertical-align:middle;color:#fff;width:40px;height:40px;font-size:18px}

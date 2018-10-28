@@ -145,12 +145,6 @@ function optionsframework_options(){
         'std'=>'https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@'.KRATOS_VERSION.'/static/css/font-awesome.min.css',
         'type'=>'text');
     $options[] = array(
-        'name'=>__('自定义Bootstrap(JS)','moedog'),
-        'desc'=>__('自定义Bootstrap链接，留空将从本地加载','moedog'),
-        'id'=>'bs_url',
-        'std'=>'https://cdn.jsdelivr.net/gh/xb2016/kratos-pjax@'.KRATOS_VERSION.'/static/js/bootstrap.min.js',
-        'type'=>'text');
-    $options[] = array(
         'name'=>__('自定义jQuery','moedog'),
         'desc'=>__('自定义jQuery链接，留空将从本地加载','moedog'),
         'id'=>'jq_url',

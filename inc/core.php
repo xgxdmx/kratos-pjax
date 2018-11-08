@@ -325,7 +325,6 @@ function cmhello_users_search_order($obj){
 }
 //Enable comments <img>
 function sig_allowed_html_tags_in_comments(){
-   define('CUSTOM_TAGS',true);
    global $allowedtags;
    $allowedtags = array(
       'img'=> array(

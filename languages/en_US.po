@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kratos-pjax\n"
-"POT-Creation-Date: 2018-10-28 14:32+0800\n"
-"PO-Revision-Date: 2018-10-28 14:32+0800\n"
+"POT-Creation-Date: 2018-11-16 18:37+0800\n"
+"PO-Revision-Date: 2018-11-16 18:38+0800\n"
 "Last-Translator: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language-Team: 小白-白 (Moedog) <xb@fczbl.vip>\n"
 "Language: en_US\n"
@@ -156,71 +156,71 @@ msgstr "Last Login"
 msgid "登录IP"
 msgstr "Login IP"
 
-#: inc/core.php:370
+#: inc/core.php:369
 msgid "您的评论正在等待审核。"
 msgstr "Your comment is awaiting review."
 
-#: inc/core.php:449 options.php:44
+#: inc/core.php:448 options.php:44
 msgid "站点地图"
 msgstr "Site Map"
 
-#: inc/core.php:525
+#: inc/core.php:524
 msgid "最后更新于"
 msgstr "Latest update on "
 
-#: inc/imgcfg.php:125 inc/imgcfg.php:126
+#: inc/imgcfg.php:109 inc/imgcfg.php:110
 msgid "从URL添加"
 msgstr "Add From URL"
 
-#: inc/imgcfg.php:137
+#: inc/imgcfg.php:121
 msgid "或"
 msgstr "or"
 
-#: inc/imgcfg.php:140 inc/imgcfg.php:143
+#: inc/imgcfg.php:124 inc/imgcfg.php:127
 msgid "从URL导入"
 msgstr "Import From URL"
 
-#: inc/imgcfg.php:158
+#: inc/imgcfg.php:142
 msgid "从URL添加媒体项目"
 msgstr "Add a media item from URL"
 
-#: inc/imgcfg.php:164
+#: inc/imgcfg.php:148
 msgid "请手动指定图像大小与格式"
 msgstr "Please specify the image size and format manually"
 
-#: inc/imgcfg.php:166
+#: inc/imgcfg.php:150
 msgid "宽"
 msgstr "Width"
 
-#: inc/imgcfg.php:168
+#: inc/imgcfg.php:152
 msgid "高"
 msgstr "Hight"
 
-#: inc/imgcfg.php:170
+#: inc/imgcfg.php:154
 msgid "MIME类型"
 msgstr "MIME Type"
 
-#: inc/imgcfg.php:177
+#: inc/imgcfg.php:161
 msgid "清除"
 msgstr "Clear"
 
-#: inc/imgcfg.php:178
+#: inc/imgcfg.php:162
 msgid "添加"
 msgstr "Add"
 
-#: inc/imgcfg.php:180
+#: inc/imgcfg.php:164
 msgid "取消"
 msgstr "Cancel"
 
-#: inc/imgcfg.php:191
+#: inc/imgcfg.php:175
 msgid "相关JS加载失败"
 msgstr "Related JavaScript fails to load"
 
-#: inc/imgcfg.php:221 inc/imgcfg.php:227
+#: inc/imgcfg.php:205 inc/imgcfg.php:211
 msgid "图像大小不合法"
 msgstr "The image size is inappropriate"
 
-#: inc/imgcfg.php:250
+#: inc/imgcfg.php:234
 msgid "无法获取图像大小"
 msgstr "Unable to get image size"
 
@@ -1933,6 +1933,9 @@ msgstr "Vtrois(Modified by 小白-白)"
 #. Author URI of the plugin/theme
 msgid "https://www.vtrois.com/"
 msgstr "https://www.vtrois.com/"
+
+#~ msgid "服务与项目"
+#~ msgstr "Services and Projects"
 
 #~ msgid "自定义Bootstrap(JS)"
 #~ msgstr "Custom Bootstrap (JS)"
